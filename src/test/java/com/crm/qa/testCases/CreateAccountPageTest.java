@@ -12,6 +12,7 @@ public class CreateAccountPageTest {
 	
 	@BeforeMethod
 	public void createAccountPageTestSetUp() {
+		System.out.println("***************Starting createAccountPageTest***********");
 		System.out.println("Inside createAccountPageTestSetUp");
 		createAccountPageObj=new CreateAccountPage();
 	}

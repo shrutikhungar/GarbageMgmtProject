@@ -11,6 +11,7 @@ public class SearchAccountPageTest {
 	SearchAccountPage searchAccountPageObj;
 	@BeforeMethod
 	public void searchAccountPageTestSetUp() {
+		System.out.println("***************Starting SearchAccountPageTest***********");
 		System.out.println("Inside searchAccountPageTestSetUp");
 		searchAccountPageObj=new SearchAccountPage();
 	}

@@ -10,6 +10,7 @@ public class ViewAccountPageTest {
 	ViewAccountPage viewAccountPageObj;
 	@BeforeMethod
 	public void viewAccountPageTestSetUp() {
+		System.out.println("***************Starting ViewAccountPageTest***********");
 		System.out.println("Inside viewAccountPageTestSetUp");
 		viewAccountPageObj=new ViewAccountPage();
 	}
