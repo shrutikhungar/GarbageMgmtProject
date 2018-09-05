@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RSG Application Test Suite" duration-ms="78" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+    <groups>
+    </groups>
+    <test name="Sprint Cycle 1" duration-ms="78" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+      <class name="com.crm.qa.testCases.ViewAccountPageTest">
+        <test-method status="PASS" signature="deleteAccountTest()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="deleteAccountTest" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccountTest -->
+        <test-method status="PASS" signature="viewAccountPageTestSetUp()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="viewAccountPageTestSetUp" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountPageTestSetUp -->
+        <test-method status="PASS" signature="sortAccountNameTest()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="sortAccountNameTest" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAccountNameTest -->
+        <test-method status="PASS" signature="viewAccountPageTestTearDown()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="viewAccountPageTestTearDown" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountPageTestTearDown -->
+        <test-method status="PASS" signature="viewAccountPageTestTearDown()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="viewAccountPageTestTearDown" is-config="true" duration-ms="11" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountPageTestTearDown -->
+        <test-method status="PASS" signature="viewAccountPageTestSetUp()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="viewAccountPageTestSetUp" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountPageTestSetUp -->
+        <test-method status="PASS" signature="viewAccountPageTestSetUp()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="viewAccountPageTestSetUp" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountPageTestSetUp -->
+        <test-method status="PASS" signature="viewAccountDetailsTest()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="viewAccountDetailsTest" duration-ms="1" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountDetailsTest -->
+        <test-method status="PASS" signature="viewAccountPageTestTearDown()[pri:0, instance:com.crm.qa.testCases.ViewAccountPageTest@3abbfa04]" name="viewAccountPageTestTearDown" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAccountPageTestTearDown -->
+      </class> <!-- com.crm.qa.testCases.ViewAccountPageTest -->
+      <class name="com.crm.qa.testCases.CreateAccountPageTest">
+        <test-method status="PASS" signature="createAccountPageTestSetUp()[pri:0, instance:com.crm.qa.testCases.CreateAccountPageTest@13deb50e]" name="createAccountPageTestSetUp" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountPageTestSetUp -->
+        <test-method status="PASS" signature="createAccountTest()[pri:0, instance:com.crm.qa.testCases.CreateAccountPageTest@13deb50e]" name="createAccountTest" duration-ms="19" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method status="PASS" signature="createAccountPageTestTearDown()[pri:0, instance:com.crm.qa.testCases.CreateAccountPageTest@13deb50e]" name="createAccountPageTestTearDown" is-config="true" duration-ms="2" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountPageTestTearDown -->
+      </class> <!-- com.crm.qa.testCases.CreateAccountPageTest -->
+      <class name="com.crm.qa.testCases.SearchAccountPageTest">
+        <test-method status="PASS" signature="searchAccountPageTestSetUp()[pri:0, instance:com.crm.qa.testCases.SearchAccountPageTest@239963d8]" name="searchAccountPageTestSetUp" is-config="true" duration-ms="1" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAccountPageTestSetUp -->
+        <test-method status="PASS" signature="searchBasedOnAccountNameTest()[pri:0, instance:com.crm.qa.testCases.SearchAccountPageTest@239963d8]" name="searchBasedOnAccountNameTest" duration-ms="2" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBasedOnAccountNameTest -->
+        <test-method status="PASS" signature="searchPaginationTest()[pri:0, instance:com.crm.qa.testCases.SearchAccountPageTest@239963d8]" name="searchPaginationTest" duration-ms="5" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPaginationTest -->
+        <test-method status="PASS" signature="searchAccountPageTestTearDown()[pri:0, instance:com.crm.qa.testCases.SearchAccountPageTest@239963d8]" name="searchAccountPageTestTearDown" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAccountPageTestTearDown -->
+        <test-method status="PASS" signature="searchAccountPageTestSetUp()[pri:0, instance:com.crm.qa.testCases.SearchAccountPageTest@239963d8]" name="searchAccountPageTestSetUp" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAccountPageTestSetUp -->
+        <test-method status="PASS" signature="searchAccountPageTestTearDown()[pri:0, instance:com.crm.qa.testCases.SearchAccountPageTest@239963d8]" name="searchAccountPageTestTearDown" is-config="true" duration-ms="0" started-at="2018-09-05T15:45:21Z" finished-at="2018-09-05T15:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAccountPageTestTearDown -->
+      </class> <!-- com.crm.qa.testCases.SearchAccountPageTest -->
+    </test> <!-- Sprint Cycle 1 -->
+  </suite> <!-- RSG Application Test Suite -->
+</testng-results>

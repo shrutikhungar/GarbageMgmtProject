@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RSG Application Test Suite]">
+  <test thread-count="5" name="Sprint Cycle 1(failed)">
+    <classes>
+      <class name="com.crm.qa.testCases.CreateAccountPageTest">
+        <methods>
+          <include name="createAccountPageTestSetUp"/>
+          <include name="createAccountPageTestTearDown"/>
+          <include name="createAccountTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testCases.CreateAccountPageTest -->
+      <class name="com.crm.qa.testCases.ViewAccountPageTest">
+        <methods>
+          <include name="viewAccountDetailsTest"/>
+          <include name="sortAccountNameTest"/>
+          <include name="deleteAccountTest"/>
+          <include name="viewAccountPageTestTearDown"/>
+          <include name="viewAccountPageTestSetUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testCases.ViewAccountPageTest -->
+      <class name="com.crm.qa.testCases.SearchAccountPageTest">
+        <methods>
+          <include name="searchAccountPageTestTearDown"/>
+          <include name="searchPaginationTest"/>
+          <include name="searchAccountPageTestSetUp"/>
+          <include name="searchBasedOnAccountNameTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testCases.SearchAccountPageTest -->
+    </classes>
+  </test> <!-- Sprint Cycle 1(failed) -->
+</suite> <!-- Failed suite [RSG Application Test Suite] -->
