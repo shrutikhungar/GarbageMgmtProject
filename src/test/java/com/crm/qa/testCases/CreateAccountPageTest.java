@@ -14,13 +14,13 @@ public class CreateAccountPageTest {
 	public void createAccountPageTestSetUp() {
 		System.out.println("***************Starting createAccountPageTest***********");
 		System.out.println("Inside createAccountPageTestSetUp");
-		createAccountPageObj=new CreateAccountPage();
+		//createAccountPageObj=new CreateAccountPage();
 	}
 	
 	@Test
 	public void createAccountTest() {
 		System.out.println("Inside createAccountTest");
-		createAccountPageObj.createAccount();
+		//createAccountPageObj.createAccount();
 	}
 	
 	@AfterMethod
