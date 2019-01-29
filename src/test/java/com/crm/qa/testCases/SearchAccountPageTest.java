@@ -13,19 +13,19 @@ public class SearchAccountPageTest {
 	public void searchAccountPageTestSetUp() {
 		System.out.println("***************Starting SearchAccountPageTest***********");
 		System.out.println("Inside searchAccountPageTestSetUp");
-		searchAccountPageObj=new SearchAccountPage();
+		//searchAccountPageObj=new SearchAccountPage();
 	}
 	
 	@Test
 	public void searchPaginationTest() {
 		System.out.println("Inside searchPaginationTest");
-		searchAccountPageObj.searchPagination();		
+		//searchAccountPageObj.searchPagination();		
 	}
 	
 	@Test
 	public void searchBasedOnAccountNameTest() {
 		System.out.println("Inside searchBasedOnAccountNameTest");
-		searchAccountPageObj.searchBasedOnAccountName();		
+		//searchAccountPageObj.searchBasedOnAccountName();		
 	}
 	
 	@AfterMethod

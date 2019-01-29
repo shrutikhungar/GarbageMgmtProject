@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="RSG Application Test Suite">
   
+  <listeners>
+  <listener class-name="com.crm.qa.reports.CustomListener"></listener>
+  </listeners>
+  
   <test thread-count="5" name="Sprint Cycle 1">
     <classes>
     	<class name="com.crm.qa.testCases.CreateAccountPageTest"/>

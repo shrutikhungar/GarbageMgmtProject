@@ -1,31 +1,38 @@
 package com.crm.qa.testCases;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import java.io.IOException;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.rsg.qa.base.Base;
 import com.rsg.qa.pages.CreateAccountPage;
 
-public class CreateAccountPageTest {
+public class CreateAccountPageTest extends Base{
 	
+	Base baseObj;
 	CreateAccountPage createAccountPageObj;
+	public CreateAccountPageTest() throws IOException {
+		super();
+		System.out.println("Inside child CreateAccountPageTest constructor");	
+	}
 	
-	@BeforeMethod
-	public void createAccountPageTestSetUp() {
-		System.out.println("***************Starting createAccountPageTest***********");
+	@BeforeTest
+	public void createAccountPageTestSetUp() throws IOException {
 		System.out.println("Inside createAccountPageTestSetUp");
-		//createAccountPageObj=new CreateAccountPage();
+		initializeBrowser();
+		System.out.println("driver in CreateAccountPageTest: "+driver);
+		createAccountPageObj=new CreateAccountPage(driver);
 	}
 	
 	@Test
-	public void createAccountTest() {
-		System.out.println("Inside createAccountTest");
-		//createAccountPageObj.createAccount();
+	public void createAccountPageTest() {
+		System.out.println("Inside test createAccountPageTest");
+		createAccountPageObj.CreateAccount();
 	}
-	
-	@AfterMethod
+	@AfterTest
 	public void createAccountPageTestTearDown() {
-		System.out.println("Inside createAccountPageTestTearDown");
-		System.out.println("*******************************");
+		System.out.println("Inside afterTest createAccountPageTest");
 	}
 }

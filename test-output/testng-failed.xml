@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testCases.SearchAccountPageTest">
+      <class name="com.crm.qa.testCases.CreateAccountPageTest">
         <methods>
-          <include name="searchAccountPageTestTearDown"/>
-          <include name="searchPaginationTest"/>
-          <include name="searchAccountPageTestSetUp"/>
-          <include name="searchBasedOnAccountNameTest"/>
+          <include name="createAccountPageTestSetUp"/>
+          <include name="createAccountPageTest"/>
+          <include name="createAccountPageTestTearDown"/>
         </methods>
-      </class> <!-- com.crm.qa.testCases.SearchAccountPageTest -->
+      </class> <!-- com.crm.qa.testCases.CreateAccountPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
